@@ -2,7 +2,7 @@
 
 # Vue3+Koa2 开发全栈 ERP 后台管理系统
 
-
+为更直观效果，请点击 ERP Readme with img.pdf 查看可视化效果。
 
 
 ## 项目背景
