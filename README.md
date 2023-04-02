@@ -1,17 +1,19 @@
 
 
-# Vue3+Koa2 开发全栈 ERP 后台管理系统
+# Vue3+Koa2 开发全栈 ERP 后台管理系统（Back Office Management System）
 
+For a more visual effect, please click on ERP Readme with img.pdf to see the visual effect.
 为更直观效果，请点击 ERP Readme with img.pdf 查看可视化效果。
 
 
-## 项目背景
+## 项目背景（Project Background）
 
 现如今前端的边界在持续扩大，企业对于工具化、平台化、全栈化能力要求也越来越高。本系统应用Vite2.0 + Vue3 + ElementPlus+Koa2+Mongo开发一个通用后台管理系统。
 
+Nowadays, the boundaries of front-end are continuously expanding, and enterprises are demanding more and more tooling, platform and full-stack capabilities. This system applies Vite2.0 + Vue3 + ElementPlus + Koa2 + Mongo to develop a generic backend management system.
 
 
-## 系统功能
+## 系统功能（System Functions）
 
 - 用户管理
 - 菜单管理
@@ -20,9 +22,14 @@
 - 审批流申请
 - 审批流审核
 
+- User Management
+- Menu Management
+- Role Management
+- Department Management
+- Approval flow application
+- Approval Flow Review
 
-
-## 项目亮点
+## 项目亮点（Project Highlights）
 
 - vite 构建 / koa 架构设计
 - vue3全家桶 / 日志规范封装
@@ -32,10 +39,17 @@
 - 接口文档定义 / models 封装
 
 
+- vite build / koa architecture design
+- vue3 family bucket / log specification packaging
+- API unified management / database operation tips
+- JWT Authentication / Permission Control
+- Scaffolding development / low code encapsulation
+- Interface documentation definition / models encapsulation
 
 
 
-## 前端目录结构
+
+## 前端目录结构（Front-end directory structure）
 
 **manager-fe**
 
@@ -147,7 +161,7 @@ obj.age = 30
 localStorage.setItem("manager",JSON.stringify(obj));
 ```
 
-## 后端目录结构
+## 后端目录结构（Back-end directory structure）
 
 https://koa.bootcss.com/#
 
