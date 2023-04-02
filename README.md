@@ -2,7 +2,6 @@
 
 # Vue3+Koa2 开发全栈 ERP 后台管理系统
 
-[TOC]
 
 
 
@@ -455,7 +454,6 @@ verify方法添加回调，回调里面有两个参数，error 表示错误，de
 
 ## 用户管理模块开发
 
-## ![Screenshot 2023-04-02 at 4.43.30 AM](/Users/yinghuanzhang/Library/Application Support/typora-user-images/Screenshot 2023-04-02 at 4.43.30 AM.png)
 
 ### 删除与批量删除功能
 
