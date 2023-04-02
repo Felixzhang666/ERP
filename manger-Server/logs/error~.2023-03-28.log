@@ -1,0 +1,9 @@
+[2023-03-28T23:39:19.756] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at Object.get length [as length] (/Users/yinghuanzhang/Vite/manger-Server/node_modules/koa/lib/response.js:215:35)
+    at logger (/Users/yinghuanzhang/Vite/manger-Server/node_modules/koa-logger/index.js:77:33)
+    at async bodyParser (/Users/yinghuanzhang/Vite/manger-Server/node_modules/koa-bodyparser/index.js:95:5)

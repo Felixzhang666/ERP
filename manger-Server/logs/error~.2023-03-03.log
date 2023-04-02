@@ -1,0 +1,6 @@
+[2023-03-03T17:19:40.208] [ERROR] error - ReferenceError: ctx is not defined
+    at /Users/yinghuanzhang/Vite/manger-Server/app.js:27:3
+    at dispatch (/Users/yinghuanzhang/Vite/manger-Server/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/yinghuanzhang/Vite/manger-Server/node_modules/koa-static/index.js:53:15)
+    at async logger (/Users/yinghuanzhang/Vite/manger-Server/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/Users/yinghuanzhang/Vite/manger-Server/node_modules/koa-bodyparser/index.js:95:5)
